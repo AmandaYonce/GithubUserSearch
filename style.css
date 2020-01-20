@@ -63,5 +63,5 @@ img{
     margin-left: 10px;
     margin-right: 10px; 
     height: auto; 
-    width: 100%;
+    max-width: 100%;
 }
