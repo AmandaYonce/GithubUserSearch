@@ -43,10 +43,12 @@ var options = {         //optional parameters for geolocation search
   }
 
 const blockLocation={latitude: 37, longitude: 14}       //fallback location
+let imageUrlArray=[]
 
 function displayPhoto(crd){         //send request to flickr api in this function
     console.log(`Latitude : ${crd.latitude}`);
     console.log(`Longitude: ${crd.longitude}`);
+    imageUrlArray=[]
 
     const proxy="https://shrouded-mountain-15003.herokuapp.com/"
     const url=proxy+"https://flickr.com/services/rest/?api_key=e35c72b1e1a0100981627f0b8f995665&format=json&nojsoncallback=1&method=flickr.photos.search&safe_search=1&per_page=5&page=1&"+"lat="+crd.latitude+"&"+"lon="+crd.longitude
@@ -61,7 +63,7 @@ function displayPhoto(crd){         //send request to flickr api in this functio
             return data
         })
 }
-let imageUrlArray=[]
+
 
 function createImageUrlObject(data){        //create array of photo urls
 
@@ -80,7 +82,10 @@ function sendImageToHTML(imageUrlArray){        //send images to html
     if(i<5){
     const imageLocation=document.getElementById("photoImage")
     imageLocation.src=imageUrlArray[i]
-    console.log(imageUrlArray[i])
+
+    const urlLocation=document.getElementById("urlAnchor")
+    urlLocation.href=imageUrlArray[i]
+    
     i++
     } else {
         i=0
