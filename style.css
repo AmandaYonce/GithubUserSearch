@@ -15,7 +15,7 @@ h1{
     text-align: center;
     margin-top: 0px; 
     margin-bottom: 2px; 
-    padding-top: 5px;
+    padding-top: 5px; 
     font-size: 40px;
     font-family: 'Shadows Into Light', cursive;
 }
@@ -32,9 +32,8 @@ footer{
     position: absolute;
     text-align: center;
     font-size: 20px;
-    width: 75%; 
+    width: 80%; 
     font-family: 'Righteous', cursive;
-    
 }
 
 #nextButton{
