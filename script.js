@@ -63,13 +63,12 @@ function displayPhoto(crd){         //send request to flickr api in this functio
 }
 let imageUrlArray=[]
 
-function createImageUrlObject(data){
-    console.log(data)
-    console.log(data.photos.photo[0])
+function createImageUrlObject(data){        //create array of photo urls
+
     for(let i=0; i<data.photos.photo.length; i++){
             imageUrlArray.push("https://farm" + data.photos.photo[i].farm+".staticflickr.com/"+data.photos.photo[i].server+"/"+data.photos.photo[i].id+"_"+data.photos.photo[i].secret+".jpg")
     }
-    console.log(imageUrlArray)
+
     sendImageToHTML(imageUrlArray)
     return imageUrlArray
 }
@@ -77,13 +76,12 @@ function createImageUrlObject(data){
 
 let i=0
 
-function sendImageToHTML(imageUrlArray){
+function sendImageToHTML(imageUrlArray){        //send images to html
     if(i<5){
     const imageLocation=document.getElementById("photoImage")
     imageLocation.src=imageUrlArray[i]
     console.log(imageUrlArray[i])
     i++
-    console.log(i)
     } else {
         i=0
         sendImageToHTML(imageUrlArray)
