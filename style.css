@@ -5,8 +5,8 @@ html{
 }
 
 body{
-    min-height: 900px; 
-    width: 75%; 
+    min-height: 1000px; 
+    width: 85%; 
     background-color: rgb(241, 241, 235);
     margin: 0 auto; 
 }
