@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/GithubUserSearch/static/css/main.76f1b2b3.chunk.css",
+    "main.js": "/GithubUserSearch/static/js/main.b38188f4.chunk.js",
+    "main.js.map": "/GithubUserSearch/static/js/main.b38188f4.chunk.js.map",
+    "runtime-main.js": "/GithubUserSearch/static/js/runtime-main.f54ff75e.js",
+    "runtime-main.js.map": "/GithubUserSearch/static/js/runtime-main.f54ff75e.js.map",
+    "static/css/2.6f9bedd9.chunk.css": "/GithubUserSearch/static/css/2.6f9bedd9.chunk.css",
+    "static/js/2.731a30d6.chunk.js": "/GithubUserSearch/static/js/2.731a30d6.chunk.js",
+    "static/js/2.731a30d6.chunk.js.map": "/GithubUserSearch/static/js/2.731a30d6.chunk.js.map",
+    "index.html": "/GithubUserSearch/index.html",
+    "precache-manifest.19d5831a0af544ef295ec4d02989cfa9.js": "/GithubUserSearch/precache-manifest.19d5831a0af544ef295ec4d02989cfa9.js",
+    "service-worker.js": "/GithubUserSearch/service-worker.js",
+    "static/css/2.6f9bedd9.chunk.css.map": "/GithubUserSearch/static/css/2.6f9bedd9.chunk.css.map",
+    "static/css/main.76f1b2b3.chunk.css.map": "/GithubUserSearch/static/css/main.76f1b2b3.chunk.css.map",
+    "static/js/2.731a30d6.chunk.js.LICENSE.txt": "/GithubUserSearch/static/js/2.731a30d6.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/GithubUserSearch/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/githubicon.png": "/GithubUserSearch/static/media/githubicon.b15eedbd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f54ff75e.js",
+    "static/css/2.6f9bedd9.chunk.css",
+    "static/js/2.731a30d6.chunk.js",
+    "static/css/main.76f1b2b3.chunk.css",
+    "static/js/main.b38188f4.chunk.js"
+  ]
+}
